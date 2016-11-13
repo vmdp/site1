@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title> Veganismo Mar del Plata </title>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.smooth-scroll.min.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <script>
+  $(document).ready(function(){
+	  $('.title').on('click', function() {
+		  $.smoothScroll({
+			  scrollElement: $('body'),
+			  console.log("scrolling @" + '#' + $(this).data("scrollto"));
+			  scrollTarget: '#' + $(this).data("scrollto")
+		  });
+		  
+		  return false;
+	  })
+  });
+  </script>
+
+
+<div class="header">
+
+  <h1> Veganismo Mar del Plata </h1>
+  <p> Recursos practicos y locales sobre el veganismo en Mar del Plata </p>
+
+  <aside>
+    <div class="title mataderos" data-scrollto="mataderos">
+      <h2> Mataderos </h2>
+      <img />
+      <ul class="subtitles">
+	<li> Ver y saber! </li>
+      </ul>
+    </div>
+
+    <div class="title comida">
+      <h2> Comida vegana </h2>
+
+      <ul class="subtitles">
+	<li> Nutrición </li>
+	<li> Recetas </li>
+	<li> Lugares </li>
+      </ul>
+    </div>
+
+    <div class="title activar">
+      <h2> Activar </h2>
+
+      <ul class="subtitles">
+	<li> <a href="#grupos"> Grupos </a> </li>
+	<li> Campañas </li>
+	<li> <a href="#material"> Material </a> </li>
+      </ul>
+    </div>
+
+  </aside>
+</div>
+
+
+<section id="mataderos" class="mataderos page">
+  <h2> Mataderos </h2>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=HEAntnuQF4E">Terrícolas</a></li>
+    <li><a href="https://www.youtube.com/channel/UCcKxR9MHtzBdT68MGoclz0g">Videos de PETA Latino-America</a></li>
+    <li><a href="http://www.igualdadanimal.org/7223/5-investigaciones-de-igualdad-animal-que-te-dejaran-sin-aliento">Investigaciones de Igualdad Animal (internacional)</a></li>
+    <li><a href="http://www.animalequality.net/investigations">Investigaciones de Animal Equality (internacional)</a></li>
+
+    <li><a href="https://www.youtube.com/watch?v=AXHIWOgouko"> Matadero: Mar del Plata (Voicot)</a></li>
+  </ul>
+
+  <div> Datos y Números </div>
+  <!--
+      Mataderos / pesca / Economía ...
+    -->
+
+</section>
+
+
+<section id="comida" class="page">
+  <h2> Comida vegana </h2>
+</section>
+
+
+
+<section id="activar" class="page">
+  <h2> Activar </h2>
+  <h3 id="grupos"> Grupos </h3>
+
+  <ul>
+    <li>
+      <div>
+	<a href="http://animallibre.org/">animallibre.org</a>
+	<p>Trabajo educativo e informativo para generar cambios sociales y legales que presenten a los demás animales como individuos con intereses y derechos.</p>
+      </div>
+    </li>
+    
+    <li>
+      <div>
+	<a href="http://www.voicot.com">voicot.com</a>
+	<p>Activistas y artistas por los derechos animales</p>
+      </div>
+    </li>
+
+    <li>
+      <div>
+	<a href="https://es-la.facebook.com/AnimalistasMardelPlata/">Animalistas Mar del Plata</a>
+	<p>
+	  Agrupación independiente que lucha por la liberación animal humana, no-humana y de la Tierra
+	</p>
+      </div>
+    </li>
+
+    <li>
+      <div>
+	<a href="https://www.facebook.com/seashepherdargentina/">Sea Shepherd Argentina</a>
+	<p>Defender, proteger, conservar a toda la fauna marina del mundo.</p>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+<!--
+> - acabemosconelespecismo.com
+
+> - animanaturalis.org
+> - eligeveg.com
+
+> - hazteveg.com
+> - igualdadanimal.org
+> - uva.org.ar
+> - www.anima.org.ar
+> - vivevegano.org
+
+https://www.facebook.com/reinoanimalong
+-->

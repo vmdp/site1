@@ -1,0 +1,86 @@
+html, body {
+    height:100%;
+}
+
+.header {
+    bottom:0px;
+    min-height: 94%;
+    height: auto; 
+}
+
+
+.header h1, .header p {
+    text-align: center;
+}
+
+aside {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    min-height: 30vw;
+    max-height: 30vw;
+
+    min-width: 30vw;
+    max-width: 30vw;
+
+    border-radius: 3vw;
+    padding: 15px;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.title.mataderos {
+    background-image: url("visual-march-040.jpg");
+    background-color: rgba(230,0,0,.6);
+}
+
+.mataderos .subtitles {
+    margin-left: -8vw;
+    margin-top: 20vw;
+}
+
+.title.comida {
+    background-image: url("schema-key-nutri.jpg");
+    background-color: rgba(220,220,0,.6);
+}
+
+.comida .subtitles {
+    margin-left: -20vw;
+    margin-top: 5vw;
+}
+
+.title.activar {
+    background-image: url("activarse.svg");
+    background-color: rgba(0,220,220,.6);
+}
+
+.activar .subtitles {
+    margin-left: 6vw;
+    margin-top: 0vw;
+}
+
+.title h2 {
+    text-align: center;
+    text-shadow: -2px 2px 2px #ffffff;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+.title .subtitles {
+    display: table;
+    list-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255,255,255,.7);
+}
+
+.subtitles li {
+    font-size: x-large;
+}
+
+.page {
+    min-height: 100%;
+    height: auto; 
+}
